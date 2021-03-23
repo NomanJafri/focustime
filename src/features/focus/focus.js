@@ -39,7 +39,7 @@ export const Focus = ({ addSubject }) => {
 };
 
 const styles = StyleSheet.create({
-  container: { flex: 0.5, marginBottom: spacing.md },
+  container: { flex: 0.5},
   innerContainer: { flex: 1, padding: 5, justifyContent: 'center' },
   title: { color: 'white', fontWeight: 'bold', fontSize: Platform.os === 'ios' ? fontSizes.lg : fontSizes.md+4 },
   inputContainer: {
